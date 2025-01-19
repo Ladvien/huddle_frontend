@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "huddle-frontend"
+version = "0.1.0"
+description = "A UI for RAG model built using Python and Reflex"
+authors = ["C. Thomas Brittain <cthomasbrittain@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+reflex = "^0.6.8"
+openai = "^1.59.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
